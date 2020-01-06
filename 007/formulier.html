@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>007</title>
+    <link href="media/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="animated fadeInRight">
+        <ul>
+            <Li><a href="index.html">Home</a></Li>
+            <Li><a href="bond.html">Acteurs</a></Li>
+            <Li><a href="movies.html">Films</a></Li>
+            <Li><a href="boeken.html">Boeken</a></Li>
+            <Li><a href="playlist.html">Muziek</a></Li>
+            <Li><a class="active" href="formulier.html">Winactie</a></Li>
+        </ul>
+    </nav>
+    <article>
+        <section class="win">
+            <form class="form-style-5" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend class="neon"> Win 2 tickets voor de volgende Bond film</legend>
+                    <input type="text" name="Naam" placeholder="Uw naam *" required>
+                    <input type="email" name="Email" placeholder="Uw email *" required>
+                    <input type="tel" name="Nummer" placeholder="Uw telefoonnummer *" required>
+                    <select id="menuopt" name="FavouriteFilm" required>
+                        <option value="menu1">Spectre</option>
+                        <option value="menu2">Skyfall</option>
+                        <option value="menu3">Casino Royale</option>
+                        </optgroup>
+                        <textarea name="Extra informatie" placeholder="Waarom wil je 2 tickets winnen?"></textarea>
+                    </select>
+                </fieldset>
+                <span class="form-label">Geboortedatum</span>
+                <label>
+                    <input class="input" name="Datum" type="date" required>
+                </label>
+                <input class="neon" type="submit" value="Verzend" />
+            </form>
+        </section>
+    </article>
+</body>
+
+</html>

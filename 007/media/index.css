@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+@font-face { font-family: skyfall; src: url('../media/font/skyfall.ttf'); }
+html {
+    background: url("../media/img/bg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 140%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    background-color: #ccc;
+}
+#title{
+    color: rgba(white ,0.6);
+    font-family: skyfall;
+    font-size: 10vw;
+    text-align: right;
+    position: fixed;
+    top: 25vh;
+    float: right;
+    left: 39vw;
+}
+
+nav{
+    color: rgba(white ,0.6);
+    font-family: skyfall;
+    font-size: 3vw;
+    text-align: right;
+    position: absolute;
+    width: 10vw;
+    top: 25vh;
+    float: right;
+    left: 80vw;
+}
+nav a{
+    color: inherit;
+    text-decoration: none;
+}
+.active{
+    color: white;
+}
+nav li:hover{
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+}
